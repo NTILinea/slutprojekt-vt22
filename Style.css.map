@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AAEA;;;;;GAKG",
+    "sources": [
+        "Style.scss",
+        "_components.scss",
+        "_varibles.scss",
+        "_varibles.scss"
+    ],
+    "names": [],
+    "file": "Style.css"
+}
