@@ -1,8 +1,17 @@
 @import 'varibles';
 
+$blue:rgb(11, 81, 204) ;
+
 @mixin center {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+};
 
+@mixin dot {
+display: block;
+   width: 24px;
+   height: 24px;
+   border-radius: 50%;
+   background-color:white;  
+};

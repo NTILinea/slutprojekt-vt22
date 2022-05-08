@@ -1,5 +1,16 @@
-$blue:rgb(11, 81, 204) ;
+@import 'components';
 
 @mixin btn {
-
+ @include dot
 };
+
+#dice {
+    .dot {
+       @include dot 
+    }
+    padding: 4px;  
+    background-color: rgb(193, 21, 205);  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+}
