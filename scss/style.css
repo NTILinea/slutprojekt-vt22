@@ -1,0 +1,285 @@
+#dice {
+  padding: 8px;
+  background-color: #c115cd;
+  width: 104px;
+  height: 104px;
+  border-radius: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: auto;
+}
+
+#dice .dot {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  margin: .2rem;
+  opacity: 0;
+}
+
+#dice.dot-1 #d5 {
+  opacity: 1;
+}
+
+#dice.dot-2 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-2 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-3 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-3 #d5 {
+  opacity: 1;
+}
+
+#dice.dot-3 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d3 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d7 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d3 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d5 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d7 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d3 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d4 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d6 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d7 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d9 {
+  opacity: 1;
+}
+
+#stegenGoal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#stegenGoal h1 {
+  margin: .8rem;
+  margin-top: 0;
+}
+
+/**,html {
+    background: black;
+}*/
+#diceResault {
+  color: #c42626;
+}
+
+button {
+  background: none;
+  color: #235f94;
+  border: 2px solid #235f94;
+  border-radius: 7px;
+  font-size: 1.5rem;
+  padding: .5rem;
+  cursor: pointer;
+  margin: 20px;
+}
+
+button:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+}
+
+#dice {
+  padding: 8px;
+  background-color: #c115cd;
+  width: 104px;
+  height: 104px;
+  border-radius: 10%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: auto;
+}
+
+#dice .dot {
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  margin: .2rem;
+  opacity: 0;
+}
+
+#dice.dot-1 #d5 {
+  opacity: 1;
+}
+
+#dice.dot-2 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-2 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-3 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-3 #d5 {
+  opacity: 1;
+}
+
+#dice.dot-3 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d3 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d7 {
+  opacity: 1;
+}
+
+#dice.dot-4 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d3 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d5 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d7 {
+  opacity: 1;
+}
+
+#dice.dot-5 #d9 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d1 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d3 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d4 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d6 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d7 {
+  opacity: 1;
+}
+
+#dice.dot-6 #d9 {
+  opacity: 1;
+}
+
+#stegenGoal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#stegenGoal h1 {
+  margin: .8rem;
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+/*# sourceMappingURL=style.css.map */

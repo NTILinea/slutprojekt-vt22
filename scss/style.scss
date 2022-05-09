@@ -1,0 +1,12 @@
+@import './components';
+@import './varibles';
+
+body {
+    margin: 0;
+    height: 100vh;
+    @include center;
+    flex-direction: column;
+}
+
+
+

@@ -1,0 +1,78 @@
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+@mixin btn {
+    @include dot
+};
+
+
+#dice {
+    padding: 8px;  
+    background-color: rgb(193, 21, 205);  
+    width: 104px;  
+    height: 104px;  
+    border-radius: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: auto;
+    
+    .dot {
+        display: block;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background-color:white;  
+        margin: .2rem;
+        opacity: 0;
+    }
+
+    &.dot-1 {
+        #d5 {  opacity: 1;  }
+    }
+    &.dot-2 {
+        #d1 { opacity: 1; }
+        #d9 { opacity: 1; }
+    }
+    &.dot-3 {
+        #d1 { opacity: 1; }
+        #d5 { opacity: 1; }
+        #d9 { opacity: 1; }
+    }
+    &.dot-4 {
+        #d1 { opacity: 1; }
+        #d3 { opacity: 1; }
+        #d7 { opacity: 1; }
+        #d9 { opacity: 1; }
+    }
+    &.dot-5 {
+        #d1 { opacity: 1; }
+        #d3 { opacity: 1; }
+        #d5 { opacity: 1; }
+        #d7 { opacity: 1; }
+        #d9 { opacity: 1; }
+    }
+    &.dot-6 {
+        #d1 { opacity: 1; }
+        #d3 { opacity: 1; }
+        #d4 { opacity: 1; }
+        #d6 { opacity: 1; }
+        #d7 { opacity: 1; }
+        #d9 { opacity: 1; }
+    }
+        
+}
+
+#stegenGoal {
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+        margin: .8rem;
+        margin-top: 0;
+    }
+}
+
