@@ -120,6 +120,20 @@
   margin-top: 0;
 }
 
+#infoText {
+  margin: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
 /**,html {
     background: black;
 }*/
@@ -265,6 +279,20 @@ button:active {
   margin-top: 0;
 }
 
+#infoText {
+  margin: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
 body {
   margin: 0;
   height: 100vh;
@@ -281,5 +309,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: #1e1e1e;
 }
 /*# sourceMappingURL=style.css.map */
