@@ -9,10 +9,12 @@
     @include dot
 };
 
+$blue:rgb(35, 95, 148);
+
 
 #dice {
     padding: 8px;  
-    background-color: rgb(193, 21, 205);  
+    background-color: $blue;  
     width: 104px;  
     height: 104px;  
     border-radius: 10%;
@@ -79,6 +81,7 @@
     margin: 5rem;
     margin-top: 0;
     margin-bottom: 0;
+    opacity: 50%;
 }
 
 p {

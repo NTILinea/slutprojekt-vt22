@@ -1,6 +1,6 @@
 #dice {
   padding: 8px;
-  background-color: #c115cd;
+  background-color: #235f94;
   width: 104px;
   height: 104px;
   border-radius: 10%;
@@ -124,6 +124,7 @@
   margin: 5rem;
   margin-top: 0;
   margin-bottom: 0;
+  opacity: 50%;
 }
 
 p {
@@ -138,7 +139,7 @@ h1 {
     background: black;
 }*/
 #diceResault {
-  color: #c42626;
+  color: #235f94;
 }
 
 button {
@@ -159,7 +160,7 @@ button:active {
 
 #dice {
   padding: 8px;
-  background-color: #c115cd;
+  background-color: #235f94;
   width: 104px;
   height: 104px;
   border-radius: 10%;
@@ -283,6 +284,7 @@ button:active {
   margin: 5rem;
   margin-top: 0;
   margin-bottom: 0;
+  opacity: 50%;
 }
 
 p {

@@ -1,18 +1,18 @@
 @import './varibles';
 
-$blue:rgb(11, 81, 204) ;
+
 
 /**,html {
     background: black;
 }*/
 
 #diceResault {
-    color: rgb(196, 38, 38);
+    color: $blue;
 }
 
 button {
     background: none;
-    color: rgb(35, 95, 148);
+    color: $blue;
     border: 2px solid rgb(35, 95, 148);
     border-radius: 7px;
     font-size: 1.5rem;
